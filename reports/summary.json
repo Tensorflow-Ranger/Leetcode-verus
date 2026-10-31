@@ -1,0 +1,1023 @@
+[
+ {
+  "pid": 9,
+  "status": "bug:panic",
+  "reason": "a valid input makes the original code panic.",
+  "question": {
+   "title": "Palindrome Number",
+   "slug": "palindrome-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 1,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "b30eff1af81e49a6"
+ },
+ {
+  "pid": 42,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Trapping Rain Water",
+   "slug": "trapping-rain-water",
+   "difficulty": "Hard"
+  },
+  "spec_round": 1,
+  "proof_round": 3,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "6",
+     "got": "6",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "9",
+     "got": "9",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "bc012bd9e5253f0a"
+ },
+ {
+  "pid": 84,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Largest Rectangle in Histogram",
+   "slug": "largest-rectangle-in-histogram",
+   "difficulty": "Hard"
+  },
+  "spec_round": 2,
+  "proof_round": 5,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "10",
+     "got": "10",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "4",
+     "got": "4",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "86bded218f30645f"
+ },
+ {
+  "pid": 118,
+  "status": "paused:verify",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: c96f7216-3d80-4e8b-b1b9-3c222b061847)",
+  "question": {
+   "title": "Pascal's Triangle",
+   "slug": "pascals-triangle",
+   "difficulty": "Easy"
+  },
+  "spec_round": 1,
+  "proof_round": 1,
+  "mode": "safety",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 1.0,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "3eb0059037dff6ba"
+ },
+ {
+  "pid": 119,
+  "status": "paused:repair",
+  "reason": null,
+  "question": {
+   "title": "Pascal's Triangle II",
+   "slug": "pascals-triangle-ii",
+   "difficulty": "Easy"
+  },
+  "spec_round": 3,
+  "proof_round": 2,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "401dcc337cc067d2"
+ },
+ {
+  "pid": 169,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Majority Element",
+   "slug": "majority-element",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 4,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "3",
+     "got": "3",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "2",
+     "got": "2",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "245a9a4bbe61c403"
+ },
+ {
+  "pid": 174,
+  "status": "paused:repair",
+  "reason": null,
+  "question": {
+   "title": "Dungeon Game",
+   "slug": "dungeon-game",
+   "difficulty": "Hard"
+  },
+  "spec_round": 2,
+  "proof_round": 5,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "dc67cea203b8fb00"
+ },
+ {
+  "pid": 190,
+  "status": "paused:repair",
+  "reason": null,
+  "question": {
+   "title": "Reverse Bits",
+   "slug": "reverse-bits",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 1,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.97,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "13fc1d94972116e8"
+ },
+ {
+  "pid": 217,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Contains Duplicate",
+   "slug": "contains-duplicate",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 1,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "61c3a3022eabeeec"
+ },
+ {
+  "pid": 219,
+  "status": "paused:find_counterexample",
+  "reason": null,
+  "question": {
+   "title": "Contains Duplicate II",
+   "slug": "contains-duplicate-ii",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 8,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "489759a4e3f33df3"
+ },
+ {
+  "pid": 231,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Power of Two",
+   "slug": "power-of-two",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 4,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "212f2760cf319279"
+ },
+ {
+  "pid": 233,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Number of Digit One",
+   "slug": "number-of-digit-one",
+   "difficulty": "Hard"
+  },
+  "spec_round": 1,
+  "proof_round": 7,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "6",
+     "got": "6",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "0",
+     "got": "0",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "0735ff7c3a5eb8dd"
+ },
+ {
+  "pid": 263,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Ugly Number",
+   "slug": "ugly-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 3,
+  "proof_round": 3,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "71d3069a0813575c"
+ },
+ {
+  "pid": 268,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Missing Number",
+   "slug": "missing-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 1,
+  "proof_round": 6,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "2",
+     "got": "2",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "2",
+     "got": "2",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "8",
+     "got": "8",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "386cd50aa33a3d4a"
+ },
+ {
+  "pid": 292,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Nim Game",
+   "slug": "nim-game",
+   "difficulty": "Easy"
+  },
+  "spec_round": 1,
+  "proof_round": 1,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 1.0,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "2bf934c1ca2f459e"
+ },
+ {
+  "pid": 326,
+  "status": "paused:verify",
+  "reason": "KeyError: 'last_file'",
+  "question": {
+   "title": "Power of Three",
+   "slug": "power-of-three",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "7825c886731dbc02"
+ },
+ {
+  "pid": 330,
+  "status": "paused:check_spec",
+  "reason": null,
+  "question": {
+   "title": "Patching Array",
+   "slug": "patching-array",
+   "difficulty": "Hard"
+  },
+  "spec_round": 1,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 342,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Power of Four",
+   "slug": "power-of-four",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 2,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "c81373e5304bda65"
+ },
+ {
+  "pid": 367,
+  "status": "paused:repair",
+  "reason": null,
+  "question": {
+   "title": "Valid Perfect Square",
+   "slug": "valid-perfect-square",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 1,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "8878990b8232481a"
+ },
+ {
+  "pid": 414,
+  "status": "paused:prove",
+  "reason": null,
+  "question": {
+   "title": "Third Maximum Number",
+   "slug": "third-maximum-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 1,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "31488dee324473ff"
+ },
+ {
+  "pid": 440,
+  "status": "paused:repair",
+  "reason": null,
+  "question": {
+   "title": "K-th Smallest in Lexicographical Order",
+   "slug": "k-th-smallest-in-lexicographical-order",
+   "difficulty": "Hard"
+  },
+  "spec_round": 1,
+  "proof_round": 4,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "3fffa239349c5ed2"
+ },
+ {
+  "pid": 446,
+  "status": "paused:find_counterexample",
+  "reason": null,
+  "question": {
+   "title": "Arithmetic Slices II - Subsequence",
+   "slug": "arithmetic-slices-ii-subsequence",
+   "difficulty": "Hard"
+  },
+  "spec_round": 3,
+  "proof_round": 6,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": null,
+  "spec_hash": "5ff998ec98650e8b"
+ },
+ {
+  "pid": 461,
+  "status": "paused:write_spec",
+  "reason": null,
+  "question": {
+   "title": "Hamming Distance",
+   "slug": "hamming-distance",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 463,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 9854b2fb-438a-42e2-8409-9af1bfdab2c2)",
+  "question": {
+   "title": "Island Perimeter",
+   "slug": "island-perimeter",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 476,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 7eaceca7-8974-4bd9-b2c3-837dd7b6ecb5)",
+  "question": {
+   "title": "Number Complement",
+   "slug": "number-complement",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 485,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Max Consecutive Ones",
+   "slug": "max-consecutive-ones",
+   "difficulty": "Easy"
+  },
+  "spec_round": 2,
+  "proof_round": 8,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.99,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "3",
+     "got": "3",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "2",
+     "got": "2",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "1263767a387083b9"
+ },
+ {
+  "pid": 495,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 8a274a1b-2b89-4cc8-943b-b95e9250279c)",
+  "question": {
+   "title": "Teemo Attacking",
+   "slug": "teemo-attacking",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 496,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: dd360c81-fa8f-4578-a2f6-2f8aaf601a95)",
+  "question": {
+   "title": "Next Greater Element I",
+   "slug": "next-greater-element-i",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 507,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 43d6e49e-9d46-4724-a805-99cbad39f215)",
+  "question": {
+   "title": "Perfect Number",
+   "slug": "perfect-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 509,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Fibonacci Number",
+   "slug": "fibonacci-number",
+   "difficulty": "Easy"
+  },
+  "spec_round": 1,
+  "proof_round": 3,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 1.0,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "1",
+     "got": "1",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "2",
+     "got": "2",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "3",
+     "got": "3",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "8c55660cf5e7263f"
+ },
+ {
+  "pid": 566,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 0d2ead7f-0de5-4ba1-9224-4880499c607a)",
+  "question": {
+   "title": "Reshape the Matrix",
+   "slug": "reshape-the-matrix",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 575,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: b6d590db-89d4-40e5-bfcd-a28a58f2af72)",
+  "question": {
+   "title": "Distribute Candies",
+   "slug": "distribute-candies",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 598,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 623bf914-bce9-4000-ae4a-d0cb3da81f67)",
+  "question": {
+   "title": "Range Addition II",
+   "slug": "range-addition-ii",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 605,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 9226879a-87bb-4465-a72d-b547ade28350)",
+  "question": {
+   "title": "Can Place Flowers",
+   "slug": "can-place-flowers",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 645,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 14b53c9a-ae9d-4909-98df-6184a35f219f)",
+  "question": {
+   "title": "Set Mismatch",
+   "slug": "set-mismatch",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 674,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 88f1f371-a6ce-44b4-b8fa-181c0a6392df)",
+  "question": {
+   "title": "Longest Continuous Increasing Subsequence",
+   "slug": "longest-continuous-increasing-subsequence",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 693,
+  "status": "error:write_spec",
+  "reason": "APIStatusError: Error code: 402 - Insufficient Balance (request_id: 18adb668-4736-4a96-8834-6be3b5be6fe0)",
+  "question": {
+   "title": "Binary Number with Alternating Bits",
+   "slug": "binary-number-with-alternating-bits",
+   "difficulty": "Easy"
+  },
+  "spec_round": 0,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 780,
+  "status": "verified",
+  "reason": null,
+  "question": {
+   "title": "Reaching Points",
+   "slug": "reaching-points",
+   "difficulty": "Hard"
+  },
+  "spec_round": 2,
+  "proof_round": 6,
+  "mode": "functional",
+  "critic": {
+   "verdict": "accept",
+   "confidence": 0.98,
+   "issues": []
+  },
+  "runtime": {
+   "examples": [
+    {
+     "example": 0,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    },
+    {
+     "example": 1,
+     "expected": "false",
+     "got": "false",
+     "match": true
+    },
+    {
+     "example": 2,
+     "expected": "true",
+     "got": "true",
+     "match": true
+    }
+   ],
+   "orig_tests": "pass",
+   "exit_code": 0
+  },
+  "spec_hash": "c7daec9140a4f298"
+ },
+ {
+  "pid": 801,
+  "status": "paused:check_spec",
+  "reason": null,
+  "question": {
+   "title": "Minimum Swaps To Make Sequences Increasing",
+   "slug": "minimum-swaps-to-make-sequences-increasing",
+   "difficulty": "Hard"
+  },
+  "spec_round": 1,
+  "proof_round": 0,
+  "mode": "functional",
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 829,
+  "status": "paused:triage",
+  "reason": null,
+  "question": {
+   "title": "Consecutive Numbers Sum",
+   "slug": "consecutive-numbers-sum",
+   "difficulty": "Hard"
+  },
+  "spec_round": null,
+  "proof_round": null,
+  "mode": null,
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ },
+ {
+  "pid": 847,
+  "status": "paused:triage",
+  "reason": null,
+  "question": {
+   "title": "Shortest Path Visiting All Nodes",
+   "slug": "shortest-path-visiting-all-nodes",
+   "difficulty": "Hard"
+  },
+  "spec_round": null,
+  "proof_round": null,
+  "mode": null,
+  "critic": null,
+  "runtime": null,
+  "spec_hash": null
+ }
+]

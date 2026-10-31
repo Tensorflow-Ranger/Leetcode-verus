@@ -1,0 +1,13 @@
+{
+ "questionFrontendId": "9002",
+ "title": "Array Total",
+ "titleSlug": "array-total",
+ "difficulty": "Easy",
+ "isPaidOnly": false,
+ "content": "<p>Given an integer array <code>a</code>, return the sum of its elements.</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre>\n<strong>Input:</strong> a = [1,2,3]\n<strong>Output:</strong> 6\n</pre>\n<p><strong class=\"example\">Example 2:</strong></p>\n<pre>\n<strong>Input:</strong> a = [-5]\n<strong>Output:</strong> -5\n</pre>\n<p><strong>Constraints:</strong></p>\n<ul>\n\t<li><code>1 &lt;= a.length &lt;= 1000</code></li>\n\t<li><code>-1000 &lt;= a[i] &lt;= 1000</code></li>\n</ul>\n",
+ "exampleTestcaseList": [
+  "[1,2,3]",
+  "[-5]"
+ ],
+ "metaData": "{\"name\": \"total\", \"params\": [{\"name\": \"a\", \"type\": \"integer[]\"}], \"return\": {\"type\": \"integer\"}}"
+}

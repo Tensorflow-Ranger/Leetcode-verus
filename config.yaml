@@ -1,0 +1,44 @@
+# Paths are relative to this file.
+verus:
+  bin: tools/verus-x86-linux/verus
+  z3: tools/z3-4.16.0/z3
+  rlimit: 20            # per-function SMT resource limit
+  timeout_s: 240        # wall clock per Verus invocation
+  max_parallel: 2       # concurrent Verus processes (7 GB RAM box)
+
+llm:
+  api_key_env: DEEPSEEK # read from .env or the environment
+  timeout_s: 1200
+  max_retries: 3
+  # role -> DeepSeek model (GET /models), reasoning effort (low|high|max), output token budget.
+  # Reasoning tokens count against max_tokens: a reply that spends it all on thinking comes back empty
+  # and is retried once with twice the budget.
+  roles:
+    spec_writer:    {model: deepseek-flash,  effort: high, max_tokens: 24000}
+    critic:         {model: deepseek-flash,  effort: high, max_tokens: 16000}
+    spec_fixer:     {model: deepseek-flash,  effort: low,  max_tokens: 8000}
+    example_prover: {model: deepseek-flash,  effort: low,  max_tokens: 8000}
+    prover:         {model: deepseek-flash,  effort: high, max_tokens: 24000}
+    repair:         {model: deepseek-flash,  effort: high, max_tokens: 24000}
+    judge:          {model: deepseek-flash,  effort: high, max_tokens: 16000}
+
+budgets:
+  spec_rounds: 3        # write_spec attempts
+  proof_rounds: 6       # functional prove/repair attempts
+  safety_rounds: 2      # panic-freedom-only attempts after functional fails
+  example_hint_tries: 1 # LLM hint attempts for example checks Z3 can't settle
+
+pilot:
+  difficulties: [Easy]
+  types: [i32, i64, u32, usize, bool, "Vec<i32>", "Vec<i64>", "Vec<bool>", "Vec<Vec<i32>>"]
+
+graph:
+  max_concurrency: 2    # problems in flight at once
+  recursion_limit: 120
+
+paths:
+  rustgym: data/rustgym/leetcode/src
+  cache: data/cache
+  checkpoints: data/checkpoints.sqlite
+  runs: runs
+  reports: reports
